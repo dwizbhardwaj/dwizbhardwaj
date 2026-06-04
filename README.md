@@ -1,110 +1,205 @@
 <div align="center">
 
-# Dwiz Bhardwaj
-### AI/ML Engineer · Full-Stack Developer · SaaS Builder
+[![header](https://capsule-render.vercel.app/api?type=venom&color=0:0d0d0d,50:1a1a2e,100:16213e&height=300&section=header&text=DWIZ%20BHARDWAJ&fontSize=70&fontColor=00d4ff&animation=fadeIn&fontAlignY=38&desc=AI%20Engineer%20%7C%20Full-Stack%20Developer%20%7C%20SaaS%20Builder&descAlignY=58&descSize=20&descColor=ffffff&stroke=00d4ff&strokeWidth=2)](https://github.com/dwizbhardwaj)
 
-*B.Tech CSE @ SRM IST Kattankulathur · Graduating 2027*
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=22&pause=1000&color=00D4FF&center=true&vCenter=true&width=800&lines=Building+AI+systems+that+actually+work+in+production;RAG+pipelines+%7C+Clinical+NLP+%7C+SaaS+Platforms;LangChain+%7C+PyTorch+%7C+Node.js+%7C+React;AWS+Certified+%7C+B.Tech+CSE+%40+SRM+IST+%7C+2027)](https://github.com/dwizbhardwaj)
 
-[![Email](https://img.shields.io/badge/email-db0850%40srmist.edu.in-0a66c2?style=flat-square&logo=gmail&logoColor=white)](mailto:db0850@srmist.edu.in)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0a66c2?style=flat-square&logo=linkedin)](https://linkedin.com)
+<img src="https://komarev.com/ghpvc/?username=dwizbhardwaj&label=Profile+Views&color=00d4ff&style=for-the-badge" alt="profile views" />
+[![Email](https://img.shields.io/badge/Gmail-db0850%40srmist.edu.in-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:db0850@srmist.edu.in)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com)
 
 </div>
 
 ---
 
-## About Me
+<img align="right" alt="coding gif" width="380" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" />
 
-I build things at the intersection of **AI and real-world product engineering** — from clinical NLP systems that parse years of patient history, to full-stack SaaS platforms with subscription analytics, role-based access, and payment infrastructure.
+## `> whoami`
 
-I'm drawn to problems where messy, heterogeneous data needs to be made useful — whether that's OCR-degraded clinical notes, multimodal workplace signals, or multi-tenant SaaS usage patterns.
+```python
+class DwizBhardwaj:
+    def __init__(self):
+        self.name       = "Dwiz Bhardwaj"
+        self.college    = "SRM IST Kattankulathur"
+        self.degree     = "B.Tech CSE · 2027"
+        self.cgpa       = 8.51
+        self.location   = "Chennai, Tamil Nadu"
 
-Currently exploring **agentic AI workflows**, **LLM-powered data pipelines**, and **enterprise integration engineering**.
+    @property
+    def focus_areas(self):
+        return [
+            "AI/ML Systems & Clinical NLP",
+            "Full-Stack SaaS Development",
+            "LLM Pipelines & RAG Architecture",
+            "Enterprise Data Integration"
+        ]
+
+    def currently_building(self):
+        return "AI-native products at the edge of engineering + impact"
+```
+
+<br clear="right"/>
+
+---
+
+## ⚡ Tech Arsenal
+
+<div align="center">
+
+**Languages**
+
+[![Skills](https://skillicons.dev/icons?i=python,cpp,java,js,ts,c,sql&theme=dark)](https://skillicons.dev)
+
+**AI / ML Stack**
+
+[![Skills](https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn,opencv&theme=dark)](https://skillicons.dev)
+
+**Full-Stack & Cloud**
+
+[![Skills](https://skillicons.dev/icons?i=react,nextjs,nodejs,fastapi,express,docker,aws,linux&theme=dark)](https://skillicons.dev)
+
+**Databases & Tools**
+
+[![Skills](https://skillicons.dev/icons?i=postgres,mongodb,git,github,postman,vscode&theme=dark)](https://skillicons.dev)
+
+</div>
 
 ---
 
-## Projects
+## 🚀 Featured Projects
 
-### 🧠 PolyDx — Longitudinal Clinical Intelligence System
-> Health AI · NLP · RAG
+<table>
+<tr>
+<td width="50%" valign="top">
 
-Early multi-disease risk detection (T2D, CKD, hypertension, NAFLD) from unstructured patient histories spanning multiple years.
+### 🧠 PolyDx
+**Longitudinal Clinical Intelligence System**
 
-- Fine-tuned **Bio_ClinicalBERT** for medical NER on OCR-degraded and code-mixed Hinglish clinical notes
-- Built a **Temporal Transformer** encoder with time-gap positional encoding to model cross-visit health trajectories
-- Multi-task calibrated classifier with **SHAP-based attribution** to surface top contributing clinical events
-- **RAG pipeline** (LangChain + ChromaDB) over ICMR/RSSDI guidelines with LLM-generated plain-language explanations
-- Exposed via a **React + FastAPI** doctor dashboard · Trained on MIMIC-III · Tracked with Weights & Biases
+> Health AI · NLP · RAG · LangChain
 
-`Python` `PyTorch` `Bio_ClinicalBERT` `LangChain` `ChromaDB` `FastAPI` `React` `MIMIC-III` `W&B`
+- Fine-tuned **Bio_ClinicalBERT** for medical NER on OCR-degraded & Hinglish clinical notes
+- **Temporal Transformer** encoder with time-gap positional encoding for cross-visit trajectories
+- Multi-task calibrated classifier with **SHAP attribution** per prediction
+- **RAG pipeline** (LangChain + ChromaDB) over ICMR clinical guidelines
+- React + FastAPI doctor dashboard · Trained on **MIMIC-III**
 
----
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 
-### 📊 InsightFlow — Full Stack SaaS Analytics Dashboard
-> SaaS · Gen AI · Node.js
+</td>
+<td width="50%" valign="top">
 
-Full-stack SaaS platform simulating real-world client account management with subscription lifecycle tracking and usage analytics.
+### 📊 InsightFlow
+**Full-Stack SaaS Analytics Dashboard**
 
-- RESTful APIs (Node.js + Express + PostgreSQL) for scalable multi-tenant data handling
-- Role-based access control, feature gating per subscription tier, and usage tracking per client
-- Interactive dashboards for business insight reporting and product usage analytics
-- **Stripe payment integration** for multi-plan client onboarding flows
-- JWT-based secure authentication throughout
+> SaaS · Gen AI · Node.js · PostgreSQL
 
-`Node.js` `Express` `PostgreSQL` `React` `Stripe` `JWT` `Docker`
+- Multi-tenant platform with **subscription lifecycle** management & feature gating
+- RESTful APIs — Node.js + Express + PostgreSQL for scalable data handling
+- **Role-based access control** · Usage tracking per client tier
+- **Stripe payment integration** for multi-plan onboarding flows
+- Interactive dashboards with real-time business insight reporting
 
----
+![NodeJS](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Stripe](https://img.shields.io/badge/Stripe-008CDD?style=flat-square&logo=stripe&logoColor=white)
+
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
 
 ### 🎭 Hybrid Context-Aware Emotion Recognition System
-> AI/ML · Deep Learning · Multimodal
+**Multimodal Workplace Wellbeing AI**
 
-Workplace wellbeing system fusing facial expressions, speech, text, typing patterns, and ambient audio.
+> Deep Learning · CNNs · BERT · Multimodal Fusion
 
-- Deep learning feature extraction using **CNNs** (audio/visual) and **BERT** for contextual text embeddings
-- Cosine similarity-based dataset fusion strategy aligning heterogeneous datasets (MELD, EMOSURV, UrbanSound8K)
+- Fused **facial expressions, speech, text, typing patterns, and ambient audio** for workplace analysis
+- CNN-based feature extraction (audio/visual) + **BERT** for contextual text embeddings
+- Cosine similarity-based dataset fusion aligning heterogeneous datasets (MELD, EMOSURV, UrbanSound8K)
 - Attention-based multimodal fusion achieving **85.6% classification accuracy**
 
-`Python` `PyTorch` `BERT` `OpenCV` `MTCNN` `DeepFace` `Librosa` `Scikit-learn`
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
+![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+
+</td>
+</tr>
+</table>
 
 ---
 
-## Skills
+## 🏆 Certifications
 
-**Languages** · Python · C++ · Java · JavaScript · SQL · C
+<div align="center">
 
-**AI/ML** · PyTorch · TensorFlow · Scikit-learn · BERT/Transformers · LangChain · OpenAI API · RAG · SHAP
+| 🥇 Certification | 🏢 Issuer | 🔗 |
+|---|---|---|
+| AWS Certified Solutions Architect – Associate | Amazon Web Services | [View](https://aws.amazon.com) |
+| MongoDB Certified Associate Developer | MongoDB | [View](https://mongodb.com) |
+| Oracle Certified Foundations Associate | Oracle | [View](https://oracle.com) |
 
-**Full-Stack** · React.js · Next.js · Node.js · Express · FastAPI
-
-**Data** · PostgreSQL · MongoDB · NumPy · Pandas · Matplotlib · OpenCV
-
-**Infrastructure** · AWS · Docker · Linux · GitHub · Postman · Weights & Biases · ChromaDB
-
-**Concepts** · DSA · OOP · DBMS · OS · Computer Networks · Machine Learning · Deep Learning · NLP · Generative AI
+</div>
 
 ---
 
-## Certifications
+## 📊 GitHub Analytics
 
-- 🏅 **AWS Certified Solutions Architect** – Associate
-- 🏅 **MongoDB Certified Associate Developer**
-- 🏅 **Oracle Certified Foundations Associate**
+<div align="center">
+
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=dwizbhardwaj&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=00d4ff&icon_color=00d4ff&text_color=ffffff"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dwizbhardwaj&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d4ff&text_color=ffffff"/>
+
+</div>
+
+<div align="center">
+
+[![GitHub Streak](https://streak-stats.demolab.com?user=dwizbhardwaj&theme=tokyonight&hide_border=true&background=0d1117&stroke=00d4ff&ring=00d4ff&fire=ff6b6b&currStreakLabel=00d4ff)](https://git.io/streak-stats)
+
+</div>
 
 ---
 
-## Experience & Activities
+## 📈 Contribution Graph
 
-**SCM Solar Energy (OPC) Pvt Ltd.** — Software Development Intern
-Contributed to software development initiatives; communicated technical solutions to non-technical stakeholders.
+<div align="center">
 
-**AARUUSH** — National Level Techno-Management Fest
-Led end-to-end workshop planning — coordinated with external trainers, managed participant onboarding, and handled cross-functional logistics for a national-level audience.
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=dwizbhardwaj&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=00d4ff&line=00d4ff&point=ffffff)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
-**RAWAT** — Community Development Intern
+</div>
+
+---
+
+## 🐍 Watch My Contributions Get Eaten
+
+<div align="center">
+
+![snake gif](https://github.com/dwizbhardwaj/dwizbhardwaj/blob/output/github-snake-dark.svg)
+
+</div>
+
+---
+
+## 💼 Experience
+
+**SCM Solar Energy (OPC) Pvt. Ltd.** — *Software Development Intern*
+> Contributed to software development initiatives; communicated technical solutions to non-technical stakeholders, translating complex system issues into clear, actionable steps.
+
+**AARUUSH** — *National Level Techno-Management Fest · Core Team*
+> Led end-to-end workshop planning — coordinated with external trainers, managed participant onboarding pipelines, and handled cross-functional logistics for a national-level audience.
+
+**RAWAT** — *Community Development Intern*
 
 ---
 
 <div align="center">
 
-*CGPA 8.51 · Open to SDE / FDE / AI Engineering roles · Available 2025*
+[![footer](https://capsule-render.vercel.app/api?type=waving&color=0:16213e,100:0d0d0d&height=120&section=footer&text=Let%27s+Build+Something+Impactful&fontSize=20&fontColor=00d4ff&animation=fadeIn)](https://github.com/dwizbhardwaj)
+
+*CGPA 8.51 · Open to SDE / FDE / AI Engineering Internships · Graduating 2027*
 
 </div>
